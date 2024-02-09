@@ -34,6 +34,7 @@ export default () => {
   let parsedGon
   try{
     parsedGon = GON.parse(string)
+    delete parsedGon.references
   }
   catch(e){
     parsedGon = {error:e.toString()}
