@@ -2,6 +2,8 @@
 
 ## How to deploy
 
+or push here
+
 ```js
 now --prod
 ```
