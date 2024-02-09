@@ -1,8 +1,6 @@
 import React from 'react'
 import Centered from '../layout/centered'
 
-import '../styles/general.scss'
-
 export default () => {
   return(
     <Centered>
